@@ -1,0 +1,77 @@
+/* Estilos para o corpo da página */
+body {
+    margin: 0; /* Remove margem padrão */
+    padding: 0; /* Remove padding padrão */
+    font-family: 'Inter', sans-serif; /* Fonte personalizada */
+    height: 100vh; /* Altura igual à altura da viewport */
+    display: flex; /* Container flexível */
+    align-items: center; /* Alinha verticalmente os itens ao centro */
+    justify-content: flex-start; /* Alinha itens à esquerda */
+    background-image: url("gif.gif"); /* Imagem de fundo */
+    background-size: cover; /* Cobertura total do fundo */
+    overflow: hidden; /* Esconde o overflow para evitar rolagem */
+}
+
+/* Estilos para o container principal */
+.container {
+    margin-left: 30px; /* Margem à esquerda */
+    position: relative; /* Posição relativa para elementos absolutos */
+}
+
+.container__informacoes {
+    max-width: 1000px; /* Largura máxima do container */
+    padding: 100px; /* Espaçamento interno */
+    background-color: rgba(61, 2, 86, 0.099); /* Cor de fundo com transparência */
+    border-radius: 10px; /* Borda arredondada */
+    position: relative; /* Posição relativa para elementos absolutos */
+    overflow: hidden; /* Esconde o overflow para evitar rolagem */
+}
+/* Estilos para o texto */
+.container__texto {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px ;
+    text-align: center; /* Alinhamento central */
+    margin-bottom: 40px; /* Margem inferior */
+    color: whitesmoke;
+}
+
+.container__texto h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 45px;
+    margin-bottom: 10px; /* Margem inferior */
+    color: white;
+}
+
+.container__texto-azul {
+    color: #b774ff; /* Cor do texto em azul */
+}
+
+/* Estilos para o input */
+.container__input {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    border: 1px solid #ccc; /* Borda */
+}
+
+/* Estilos para os botões */
+.container__botoes {
+    text-align: center; /* Alinhamento central */
+}
+
+.container__botao {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px 20px; /* Espaçamento interno */
+    margin: 10px; /* Margem */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Borda arredondada */
+    background-color: #7918e8; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    cursor: pointer; /* Cursor de ponteiro */
+    transition: background-color 0.3s; /* Transição de cor de fundo */
+}
+
+.container__botao:hover {
+    background-color: #6313a5; /* Cor de fundo ao passar o mouse */
+}
